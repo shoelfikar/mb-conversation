@@ -2,7 +2,7 @@ const { response } = require('./utils')
 const axios = require('axios')
 const moment = require('moment')
 const { insertConversationData } = require('./model')
-// const accessKey = 'AccessKey  BKaOCJsiiEian8mYUSvkchMMw'
+// const accessKey = 'AccessKey  '
 
 const fetchDataConversation = async (offset,limit, count, accessKey) => {
     const data = {
